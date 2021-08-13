@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 
 module.exports = {
   renderHomePage: renderHomePage,
